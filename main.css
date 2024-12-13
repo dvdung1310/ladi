@@ -1,5 +1,5 @@
 .ladi-header {
-    color: #f8cc48;
+    color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +15,7 @@
 .ladi-header .text-uppercase {
     font-weight: bold;
     margin-bottom: 0;
+    margin-top: 5px;
 }
 .bottom-contain{
     display: flex;
@@ -37,9 +38,10 @@
 }
 
 .ladi-text-one {
-    color: #000;
+    color: rgba(0, 0, 0, 1);
     font-size: 20px;
     margin-bottom: 25px;
+    font-style: italic;
 }
 
 .ladi-content-one-first {
@@ -50,8 +52,7 @@
 }
 
 .ladi-content-one-first-left-text {
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 20px;
 }
 
 .ladi-content-one-first-left div {
@@ -167,7 +168,233 @@
 .banner-full{
     margin-top: 60px;
 }
-
+.logo-ladi{
+    margin-top: 60px;
+}
 .logo-ladi img{
     width: 100%;
+    margin-bottom: 15px;
+}
+
+.ladi-text-ht{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.col_unit {
+    padding: 25px 20px 30px 20px;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.col_unit h3{
+    font-size: 18px;
+}
+.ladi-footer{
+    background-color: rgba(238, 238, 238, 1);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.ladi-footer-row{
+    display: flex;
+    align-items: center;
+}
+.ladi-footer-header{
+    margin-bottom: 60px;
+}
+.ladi-footer-left div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ladi-footer-left img{
+    margin-right: 10px;
+}
+
+.ladi-footer-left span{
+   font-size: 18px;
+}
+
+.br-css{
+    display: block;
+}
+.ladi-xb .bp-ladi {
+    font-size: 20px;
+}
+@media only screen and (max-width: 900px) {
+    .br-css{
+        display: none;
+    }
+    .ladi-content-one-first-item1{
+        margin-right: 25px;
+    }
+    .ladi-content-one-first-item1 div{
+        height: 60px;
+    }
+    .ladi-content-one-first-item2 div{
+        height: 60px;
+    }
+    .bottom-contain{
+        padding: 30px;
+    }
+    .ladi-xb h3 {
+        font-size: 29px;
+    }
+    .logo-ladi-img{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-ladi-img img{
+        width: 46%;
+    }
+    .col_unit {
+        width: 48%;
+        padding: 10px 0px 10px 5px;
+    }
+    .col_unit{
+        display: flex;
+        align-items: center;
+    }
+
+    .col_unit img{
+        width: 90px;
+        margin-right: 12px;
+    }
+    .ladi-footer-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .ladi-footer-header {
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .col_services{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .col_unit {
+        width: 33%;
+        padding: 10px 0px 10px 5px;
+    }
+    .col_unit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col_unit img{
+        width: 50px;
+        margin-right: 12px;
+    }
+    .col_unit span{
+        font-size: 13px;
+    }
+    .br-css{
+        display: none;
+    }
+    .col-12{
+        width: 100%;
+    }
+    .ladi-content-one .ladi-content-one-first{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ladi-content-one-first-item2 div {
+        height: 40px;
+        font-size: 15px;
+    }
+    .ladi-content-one-first-item1{
+        margin-right: 25px;
+    }
+    .ladi-content-one-first-item1 div {
+        height: 40px;
+    }
+
+    .ladi-content-one-button-div span {
+        font-size: 16px;
+    }
+    .bottom-contain{
+        padding: 15px;
+    }
+
+    .ladi-xb h3 {
+        font-size: 20px;
+    }
+    .ladi-ct {
+        font-size: 20px;
+    }
+    .ladi-thu-three {
+        font-size: 20px;
+    }
+    .banner-full {
+        margin-top: 20px;
+    }
+    .ladi-content-one-first-left-text {
+        font-size: 20px;
+    }
+    .ladi-text-one {
+        color: #000;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .ladi-content-one {
+        margin-top: 10px;
+    }
+    .ladi-header .ladi-h3 {
+        font-weight: 20px;
+    }
+    .ladi-header .text-uppercase {
+        font-size: 20px;
+    }
+    .ladi-xb .bp-ladi{
+        font-size: 15px;
+    }
+    .ladi-ita {
+        font-size: 15px;
+    }
+    .logo-ladi {
+        margin-top: 20px;
+    }
+    .logo-ladi-img{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-ladi-img img{
+        width: 46%;
+    }
+    .ladi-text-ht {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .col_unit h3 {
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+
+    .ladi-footer-header {
+        margin-bottom: 20px;
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .ladi-footer-row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .ladi-footer-row .col-md-5 img{
+        margin-bottom: 15px;
+    }
+    .ladi-footer-left span {
+        font-size: 13px;
+        text-align: justify;
+    }
 }
